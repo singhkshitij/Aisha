@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7545FD9CC7A6AB9D360C42 /* Pods_AishaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EA6DE7E9B62D5BD1A3960D /* Pods_AishaUITests.framework */; };
+		8A5EDF02201A0DEF004447B0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5EDF01201A0DEF004447B0 /* SignUpViewController.swift */; };
+		8A5EDF07201A1F6F004447B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5EDF06201A1F6F004447B0 /* HomeViewController.swift */; };
+		8A5EDF09201A25F8004447B0 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5EDF08201A25F8004447B0 /* ResetPasswordViewController.swift */; };
+		8A5EDF0B201A5C3D004447B0 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A5EDF0A201A5C3D004447B0 /* back.jpg */; };
+		8A5EDF0D201A5D97004447B0 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5EDF0C201A5D97004447B0 /* send.png */; };
+		8A5EDF0F201A5F50004447B0 /* aisha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5EDF0E201A5F50004447B0 /* aisha.png */; };
+		8A5EDF12201A6829004447B0 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A5EDF11201A6829004447B0 /* loader.json */; };
+		8A5EDF14201A6831004447B0 /* phonological.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A5EDF13201A6831004447B0 /* phonological.json */; };
+		8AB5A0D420179D3D001D6E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A0D320179D3D001D6E52 /* AppDelegate.swift */; };
+		8AB5A0D620179D3D001D6E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A0D520179D3D001D6E52 /* ViewController.swift */; };
+		8AB5A0D920179D3D001D6E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A0D720179D3D001D6E52 /* Main.storyboard */; };
+		8AB5A0DC20179D3D001D6E52 /* Aisha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A0DA20179D3D001D6E52 /* Aisha.xcdatamodeld */; };
+		8AB5A0DE20179D3D001D6E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A0DD20179D3D001D6E52 /* Assets.xcassets */; };
+		8AB5A0E120179D3D001D6E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A0DF20179D3D001D6E52 /* LaunchScreen.storyboard */; };
+		8AB5A0EC20179D3D001D6E52 /* AishaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A0EB20179D3D001D6E52 /* AishaTests.swift */; };
+		8AB5A0F720179D3D001D6E52 /* AishaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A0F620179D3D001D6E52 /* AishaUITests.swift */; };
+		8AB5A1082017A37E001D6E52 /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A1072017A37E001D6E52 /* pass.png */; };
+		8AB5A10C2017A3A0001D6E52 /* mails.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A10B2017A3A0001D6E52 /* mails.png */; };
+		8AB5A10E2017AC49001D6E52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5A10D2017AC49001D6E52 /* GoogleService-Info.plist */; };
+		C0C27EE00CEB5B882885A3F0 /* Pods_Aisha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6AD3C362EE51033DDABD6 /* Pods_Aisha.framework */; };
+		F5B71499B0DEDE4859E84F6C /* Pods_AishaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8135F575B61C6F6B3013505 /* Pods_AishaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB5A0E820179D3D001D6E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB5A0C820179D3D001D6E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB5A0CF20179D3D001D6E52;
+			remoteInfo = Aisha;
+		};
+		8AB5A0F320179D3D001D6E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB5A0C820179D3D001D6E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB5A0CF20179D3D001D6E52;
+			remoteInfo = Aisha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D6AD3C362EE51033DDABD6 /* Pods_Aisha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aisha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED48889DAAC08AB86167F75 /* Pods-AishaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AishaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AishaTests/Pods-AishaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		648538712EB3D6D012990D0A /* Pods-Aisha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aisha/Pods-Aisha.release.xcconfig"; sourceTree = "<group>"; };
+		64F14E30F5BB6F6F50CC5567 /* Pods-AishaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AishaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AishaTests/Pods-AishaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A5EDF01201A0DEF004447B0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8A5EDF06201A1F6F004447B0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A5EDF08201A25F8004447B0 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		8A5EDF0A201A5C3D004447B0 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		8A5EDF0C201A5D97004447B0 /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
+		8A5EDF0E201A5F50004447B0 /* aisha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aisha.png; sourceTree = "<group>"; };
+		8A5EDF11201A6829004447B0 /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		8A5EDF13201A6831004447B0 /* phonological.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = phonological.json; sourceTree = "<group>"; };
+		8AB5A0D020179D3D001D6E52 /* Aisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB5A0D320179D3D001D6E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AB5A0D520179D3D001D6E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AB5A0D820179D3D001D6E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AB5A0DB20179D3D001D6E52 /* Aisha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aisha.xcdatamodel; sourceTree = "<group>"; };
+		8AB5A0DD20179D3D001D6E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AB5A0E020179D3D001D6E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AB5A0E220179D3D001D6E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB5A0E720179D3D001D6E52 /* AishaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AishaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB5A0EB20179D3D001D6E52 /* AishaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AishaTests.swift; sourceTree = "<group>"; };
+		8AB5A0ED20179D3D001D6E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB5A0F220179D3D001D6E52 /* AishaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AishaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB5A0F620179D3D001D6E52 /* AishaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AishaUITests.swift; sourceTree = "<group>"; };
+		8AB5A0F820179D3D001D6E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB5A1072017A37E001D6E52 /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass.png; sourceTree = "<group>"; };
+		8AB5A10B2017A3A0001D6E52 /* mails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mails.png; sourceTree = "<group>"; };
+		8AB5A10D2017AC49001D6E52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		952A3EA98225AA00EB4452E6 /* Pods-Aisha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aisha/Pods-Aisha.debug.xcconfig"; sourceTree = "<group>"; };
+		A3EA6DE7E9B62D5BD1A3960D /* Pods_AishaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AishaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A95F7FC01DC7F205A93C26 /* Pods-AishaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AishaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AishaUITests/Pods-AishaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8135F575B61C6F6B3013505 /* Pods_AishaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AishaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE1F87272519DFC8CB1F089 /* Pods-AishaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AishaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AishaUITests/Pods-AishaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB5A0CD20179D3D001D6E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C27EE00CEB5B882885A3F0 /* Pods_Aisha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5A0E420179D3D001D6E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B71499B0DEDE4859E84F6C /* Pods_AishaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5A0EF20179D3D001D6E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7545FD9CC7A6AB9D360C42 /* Pods_AishaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0640A20682FC2BA9F8929035 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D6AD3C362EE51033DDABD6 /* Pods_Aisha.framework */,
+				B8135F575B61C6F6B3013505 /* Pods_AishaTests.framework */,
+				A3EA6DE7E9B62D5BD1A3960D /* Pods_AishaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A5EDF10201A66F9004447B0 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				8A5EDF13201A6831004447B0 /* phonological.json */,
+				8A5EDF11201A6829004447B0 /* loader.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		8AB5A0C720179D3D001D6E52 = {
+			isa = PBXGroup;
+			children = (
+				8AB5A0D220179D3D001D6E52 /* Aisha */,
+				8AB5A0EA20179D3D001D6E52 /* AishaTests */,
+				8AB5A0F520179D3D001D6E52 /* AishaUITests */,
+				8AB5A0D120179D3D001D6E52 /* Products */,
+				8CC6579EF514AB9480F9F9F0 /* Pods */,
+				0640A20682FC2BA9F8929035 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB5A0D120179D3D001D6E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5A0D020179D3D001D6E52 /* Aisha.app */,
+				8AB5A0E720179D3D001D6E52 /* AishaTests.xctest */,
+				8AB5A0F220179D3D001D6E52 /* AishaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB5A0D220179D3D001D6E52 /* Aisha */ = {
+			isa = PBXGroup;
+			children = (
+				8A5EDF10201A66F9004447B0 /* json */,
+				8AB5A10D2017AC49001D6E52 /* GoogleService-Info.plist */,
+				8AB5A1042017A2D1001D6E52 /* images */,
+				8AB5A0D320179D3D001D6E52 /* AppDelegate.swift */,
+				8AB5A0D520179D3D001D6E52 /* ViewController.swift */,
+				8AB5A0D720179D3D001D6E52 /* Main.storyboard */,
+				8AB5A0DD20179D3D001D6E52 /* Assets.xcassets */,
+				8AB5A0DF20179D3D001D6E52 /* LaunchScreen.storyboard */,
+				8AB5A0E220179D3D001D6E52 /* Info.plist */,
+				8AB5A0DA20179D3D001D6E52 /* Aisha.xcdatamodeld */,
+				8A5EDF01201A0DEF004447B0 /* SignUpViewController.swift */,
+				8A5EDF06201A1F6F004447B0 /* HomeViewController.swift */,
+				8A5EDF08201A25F8004447B0 /* ResetPasswordViewController.swift */,
+			);
+			path = Aisha;
+			sourceTree = "<group>";
+		};
+		8AB5A0EA20179D3D001D6E52 /* AishaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5A0EB20179D3D001D6E52 /* AishaTests.swift */,
+				8AB5A0ED20179D3D001D6E52 /* Info.plist */,
+			);
+			path = AishaTests;
+			sourceTree = "<group>";
+		};
+		8AB5A0F520179D3D001D6E52 /* AishaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5A0F620179D3D001D6E52 /* AishaUITests.swift */,
+				8AB5A0F820179D3D001D6E52 /* Info.plist */,
+			);
+			path = AishaUITests;
+			sourceTree = "<group>";
+		};
+		8AB5A1042017A2D1001D6E52 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8A5EDF0E201A5F50004447B0 /* aisha.png */,
+				8A5EDF0C201A5D97004447B0 /* send.png */,
+				8A5EDF0A201A5C3D004447B0 /* back.jpg */,
+				8AB5A10B2017A3A0001D6E52 /* mails.png */,
+				8AB5A1072017A37E001D6E52 /* pass.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8CC6579EF514AB9480F9F9F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				952A3EA98225AA00EB4452E6 /* Pods-Aisha.debug.xcconfig */,
+				648538712EB3D6D012990D0A /* Pods-Aisha.release.xcconfig */,
+				4ED48889DAAC08AB86167F75 /* Pods-AishaTests.debug.xcconfig */,
+				64F14E30F5BB6F6F50CC5567 /* Pods-AishaTests.release.xcconfig */,
+				EBE1F87272519DFC8CB1F089 /* Pods-AishaUITests.debug.xcconfig */,
+				B1A95F7FC01DC7F205A93C26 /* Pods-AishaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB5A0CF20179D3D001D6E52 /* Aisha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB5A0FB20179D3D001D6E52 /* Build configuration list for PBXNativeTarget "Aisha" */;
+			buildPhases = (
+				D5CAD46F913B7511843F1F11 /* [CP] Check Pods Manifest.lock */,
+				8AB5A0CC20179D3D001D6E52 /* Sources */,
+				8AB5A0CD20179D3D001D6E52 /* Frameworks */,
+				8AB5A0CE20179D3D001D6E52 /* Resources */,
+				9BE13EB7C0FF68263DBA17A1 /* [CP] Embed Pods Frameworks */,
+				B234B4832B26982B191F5905 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aisha;
+			productName = Aisha;
+			productReference = 8AB5A0D020179D3D001D6E52 /* Aisha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB5A0E620179D3D001D6E52 /* AishaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB5A0FE20179D3D001D6E52 /* Build configuration list for PBXNativeTarget "AishaTests" */;
+			buildPhases = (
+				3270538251BAAE1179E2B19D /* [CP] Check Pods Manifest.lock */,
+				8AB5A0E320179D3D001D6E52 /* Sources */,
+				8AB5A0E420179D3D001D6E52 /* Frameworks */,
+				8AB5A0E520179D3D001D6E52 /* Resources */,
+				FC84793BACDF05B17443EFC0 /* [CP] Embed Pods Frameworks */,
+				A2796C026C5553F96C09F643 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB5A0E920179D3D001D6E52 /* PBXTargetDependency */,
+			);
+			name = AishaTests;
+			productName = AishaTests;
+			productReference = 8AB5A0E720179D3D001D6E52 /* AishaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AB5A0F120179D3D001D6E52 /* AishaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB5A10120179D3D001D6E52 /* Build configuration list for PBXNativeTarget "AishaUITests" */;
+			buildPhases = (
+				7E3A5EFAE761826B7F29391E /* [CP] Check Pods Manifest.lock */,
+				8AB5A0EE20179D3D001D6E52 /* Sources */,
+				8AB5A0EF20179D3D001D6E52 /* Frameworks */,
+				8AB5A0F020179D3D001D6E52 /* Resources */,
+				789F8497E764EF0038F4F13A /* [CP] Embed Pods Frameworks */,
+				E770E41DBB68DDAE1E23E365 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB5A0F420179D3D001D6E52 /* PBXTargetDependency */,
+			);
+			name = AishaUITests;
+			productName = AishaUITests;
+			productReference = 8AB5A0F220179D3D001D6E52 /* AishaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB5A0C820179D3D001D6E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = beingdev;
+				TargetAttributes = {
+					8AB5A0CF20179D3D001D6E52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3253P8MB55;
+						ProvisioningStyle = Automatic;
+					};
+					8AB5A0E620179D3D001D6E52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AB5A0CF20179D3D001D6E52;
+					};
+					8AB5A0F120179D3D001D6E52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AB5A0CF20179D3D001D6E52;
+					};
+				};
+			};
+			buildConfigurationList = 8AB5A0CB20179D3D001D6E52 /* Build configuration list for PBXProject "Aisha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB5A0C720179D3D001D6E52;
+			productRefGroup = 8AB5A0D120179D3D001D6E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB5A0CF20179D3D001D6E52 /* Aisha */,
+				8AB5A0E620179D3D001D6E52 /* AishaTests */,
+				8AB5A0F120179D3D001D6E52 /* AishaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB5A0CE20179D3D001D6E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB5A0E120179D3D001D6E52 /* LaunchScreen.storyboard in Resources */,
+				8A5EDF14201A6831004447B0 /* phonological.json in Resources */,
+				8AB5A1082017A37E001D6E52 /* pass.png in Resources */,
+				8A5EDF0F201A5F50004447B0 /* aisha.png in Resources */,
+				8AB5A0DE20179D3D001D6E52 /* Assets.xcassets in Resources */,
+				8A5EDF12201A6829004447B0 /* loader.json in Resources */,
+				8AB5A0D920179D3D001D6E52 /* Main.storyboard in Resources */,
+				8A5EDF0B201A5C3D004447B0 /* back.jpg in Resources */,
+				8A5EDF0D201A5D97004447B0 /* send.png in Resources */,
+				8AB5A10C2017A3A0001D6E52 /* mails.png in Resources */,
+				8AB5A10E2017AC49001D6E52 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5A0E520179D3D001D6E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5A0F020179D3D001D6E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3270538251BAAE1179E2B19D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AishaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789F8497E764EF0038F4F13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AishaUITests/Pods-AishaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3A5EFAE761826B7F29391E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AishaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE13EB7C0FF68263DBA17A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aisha/Pods-Aisha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ApiAI/ApiAI.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApiAI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aisha/Pods-Aisha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2796C026C5553F96C09F643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AishaTests/Pods-AishaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B234B4832B26982B191F5905 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aisha/Pods-Aisha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CAD46F913B7511843F1F11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aisha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E770E41DBB68DDAE1E23E365 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AishaUITests/Pods-AishaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC84793BACDF05B17443EFC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AishaTests/Pods-AishaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB5A0CC20179D3D001D6E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5EDF07201A1F6F004447B0 /* HomeViewController.swift in Sources */,
+				8AB5A0D620179D3D001D6E52 /* ViewController.swift in Sources */,
+				8AB5A0D420179D3D001D6E52 /* AppDelegate.swift in Sources */,
+				8A5EDF09201A25F8004447B0 /* ResetPasswordViewController.swift in Sources */,
+				8A5EDF02201A0DEF004447B0 /* SignUpViewController.swift in Sources */,
+				8AB5A0DC20179D3D001D6E52 /* Aisha.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5A0E320179D3D001D6E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB5A0EC20179D3D001D6E52 /* AishaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5A0EE20179D3D001D6E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB5A0F720179D3D001D6E52 /* AishaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB5A0E920179D3D001D6E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB5A0CF20179D3D001D6E52 /* Aisha */;
+			targetProxy = 8AB5A0E820179D3D001D6E52 /* PBXContainerItemProxy */;
+		};
+		8AB5A0F420179D3D001D6E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB5A0CF20179D3D001D6E52 /* Aisha */;
+			targetProxy = 8AB5A0F320179D3D001D6E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB5A0D720179D3D001D6E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB5A0D820179D3D001D6E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AB5A0DF20179D3D001D6E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB5A0E020179D3D001D6E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AB5A0F920179D3D001D6E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AB5A0FA20179D3D001D6E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB5A0FC20179D3D001D6E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952A3EA98225AA00EB4452E6 /* Pods-Aisha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3253P8MB55;
+				INFOPLIST_FILE = Aisha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beingdev.Aisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8AB5A0FD20179D3D001D6E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648538712EB3D6D012990D0A /* Pods-Aisha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3253P8MB55;
+				INFOPLIST_FILE = Aisha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beingdev.Aisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8AB5A0FF20179D3D001D6E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED48889DAAC08AB86167F75 /* Pods-AishaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AishaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beingdev.AishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisha.app/Aisha";
+			};
+			name = Debug;
+		};
+		8AB5A10020179D3D001D6E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F14E30F5BB6F6F50CC5567 /* Pods-AishaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AishaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beingdev.AishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisha.app/Aisha";
+			};
+			name = Release;
+		};
+		8AB5A10220179D3D001D6E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE1F87272519DFC8CB1F089 /* Pods-AishaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AishaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beingdev.AishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Aisha;
+			};
+			name = Debug;
+		};
+		8AB5A10320179D3D001D6E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A95F7FC01DC7F205A93C26 /* Pods-AishaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AishaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beingdev.AishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Aisha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB5A0CB20179D3D001D6E52 /* Build configuration list for PBXProject "Aisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB5A0F920179D3D001D6E52 /* Debug */,
+				8AB5A0FA20179D3D001D6E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB5A0FB20179D3D001D6E52 /* Build configuration list for PBXNativeTarget "Aisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB5A0FC20179D3D001D6E52 /* Debug */,
+				8AB5A0FD20179D3D001D6E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB5A0FE20179D3D001D6E52 /* Build configuration list for PBXNativeTarget "AishaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB5A0FF20179D3D001D6E52 /* Debug */,
+				8AB5A10020179D3D001D6E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB5A10120179D3D001D6E52 /* Build configuration list for PBXNativeTarget "AishaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB5A10220179D3D001D6E52 /* Debug */,
+				8AB5A10320179D3D001D6E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AB5A0DA20179D3D001D6E52 /* Aisha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AB5A0DB20179D3D001D6E52 /* Aisha.xcdatamodel */,
+			);
+			currentVersion = 8AB5A0DB20179D3D001D6E52 /* Aisha.xcdatamodel */;
+			path = Aisha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AB5A0C820179D3D001D6E52 /* Project object */;
+}

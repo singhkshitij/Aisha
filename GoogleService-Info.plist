@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>400643934699-6f23otu46ehge1vjtrgrvta820c6uqa4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.400643934699-6f23otu46ehge1vjtrgrvta820c6uqa4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAegSeHAoqy-tdWiPr4-GT83BhvAS5iFo4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>400643934699</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.beingdev.Aisha</string>
+	<key>PROJECT_ID</key>
+	<string>aaisha-52d83</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aaisha-52d83.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:400643934699:ios:64ec080b3d71add4</string>
+	<key>DATABASE_URL</key>
+	<string>https://aaisha-52d83.firebaseio.com</string>
+</dict>
+</plist>
